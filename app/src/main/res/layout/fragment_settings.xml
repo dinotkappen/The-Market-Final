@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:layout_marginTop="60dp"
+    android:background="@mipmap/bg_main"
+    tools:context=".Activity.MainActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="45dp"
+            android:layout_marginTop="60dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/settings_large" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/Your_Account_Settings"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="22dp" />
+
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Settings"-->
+                <!--android:textColor="@color/colorBlack"-->
+                <!--android:textSize="22dp" />-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edt_your_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gray_rectangle"
+                    android:drawableEnd="@mipmap/right_arrow"
+                    android:drawableRight="@mipmap/right_arrow"
+                    android:focusable="false"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:text="@string/Your_Info"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/edt_adrz_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/gray_rectangle"
+                    android:drawableEnd="@mipmap/right_arrow"
+                    android:drawableRight="@mipmap/right_arrow"
+                    android:focusable="false"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:text="@string/Address_Book"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/edt_change_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/gray_rectangle"
+                    android:drawableEnd="@mipmap/right_arrow"
+                    android:drawableRight="@mipmap/right_arrow"
+                    android:focusable="false"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:text="@string/Change_Password"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/edtChangeLang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/gray_rectangle"
+                    android:drawableEnd="@mipmap/right_arrow"
+                    android:drawableRight="@mipmap/right_arrow"
+                    android:focusable="false"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:text="@string/ChangeLanguage"
+                    android:textSize="14dp"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/edt_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/gray_rectangle"
+                    android:drawableEnd="@mipmap/right_arrow"
+                    android:drawableRight="@mipmap/right_arrow"
+                    android:focusable="false"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:singleLine="true"
+                    android:text="@string/Logout"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</FrameLayout>

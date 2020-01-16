@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".Activity.SignUpPhoneValidationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp"
+            android:text="@string/Please_enter_the_phone_number"/>
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Phone"
+            android:background="@drawable/gray_rectangle"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/colorBlack"
+            android:inputType="phone"
+            android:maxLength="13"/>
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SUBMIT"
+            android:background="@drawable/btn_selected"
+            android:layout_marginTop="38dp"
+            android:textColor="@color/colorBlack"/>
+    </LinearLayout>
+
+</LinearLayout>

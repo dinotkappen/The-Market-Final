@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="1dp">
+
+
+    <EditText
+        android:id="@+id/edt_Units"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/btn_not_selected"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/colorBlack"
+        android:layout_centerHorizontal="true"
+        android:focusable="false"
+        android:textSize="12dp" />
+
+</LinearLayout>

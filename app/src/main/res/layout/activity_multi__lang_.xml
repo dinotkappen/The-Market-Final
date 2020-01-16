@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/lauchmarketimage"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <RadioGroup
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:id="@+id/radioGroup_multi_lang"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbtn_en"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/English"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtn_ar"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Arabic"
+                    android:gravity="start"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"/>
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btn_Slct_lang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:background="@drawable/btn_rectangle"
+            android:text="@string/CONTINUE"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

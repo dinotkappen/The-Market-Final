@@ -1,0 +1,225 @@
+<resources>
+    <string name="app_name">The Market</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Search here for groceries</string>
+    <string name="AgreeTC"><u>I here by accept the Terms and Conditions</u>.</string>
+    <string name="herebyTC">I here by accept the</string>
+    <string name="Password_Canot_Empty">Password cannot be empty</string>
+
+    <string name="facebook_app_id">825708251097899</string>
+    <string name="fb_login_protocol_scheme">fb825708251097899</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_maps">CHECKOUT</string>
+
+
+    <string name="sign_in">Sign In</string>
+    <string name="Welcome_Sign_in_to_your_Account">Sign In</string>
+    <string name="Create_an_Account">Create an Account</string>
+    <string name="Sign_up">Sign up!</string>
+    <string name="Sign_upOne">Sign up!</string>
+    <string name="Forgot_Password">Forgot Password ?</string>
+    <string name="User_Name_Email">User Name / Email</string>
+    <string name="Create_A_New_Account">Create A New Account</string>
+    <string name="Your_already_have_an_account">Your already have an account ?</string>
+    <string name="SIGN_UP">SIGN UP</string>
+    <string name="Email">Email</string>
+    <string name="Name">Name</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="SEND">SEND</string>
+    <string name="Enter_Your_Email_Id_Here">Enter Your Email Id Here..</string>
+    <string name="ADD_TO_LIST">ADD TO LIST</string>
+    <string name="Add_to_shopping_list">Add to shopping list</string>
+    <string name="Add_New_List">Add New List</string>
+    <string name="Your_Account_Settings">Your Account Settings</string>
+    <string name="SUBMIT">SUBMIT</string>
+    <string name="Suggest_an_item">Suggest an item</string>
+    <string name="Title">Title</string>
+    <string name="Please_enter_a_title"> Please enter a title</string>
+    <string name="_QAR"> QAR</string>
+    <string name="Shop">Shop</string>
+    <string name="Order_History">Order History</string>
+    <string name="Shopping_List">Shopping List</string>
+    <string name="Settings">Settings</string>
+    <string name="Contact">Contact</string>
+    <string name="FAQ">FAQ</string>
+    <string name="Share">Share</string>
+    <string name="Logout">Logout</string>
+    <string name="LogIn">LogIn</string>
+    <string name="LETS_BEGIN">LETS BEGIN</string>
+    <string name="No_internet_connection">No internet connection</string>
+    <string name="Server_Error"> The server could not be reached because of a connection problem  </string>
+    <string name="No_notification">No notification</string>
+    <string name="First_Name_cannot_be_empty">First Name cannot be empty</string>
+    <string name="Enter_a_valid_name">Enter a valid name.</string>
+
+
+    <string name="Last_Name_cannot_be_empty">Last Name cannot be empty</string>
+    <string name="Username_cannot_be_empty">Username cannot be empty</string>
+    <string name="Invalid_Username_or_Password">Invalid Username or Password.</string>
+    <string name="Appointment_ID_cannot_be_empty">Appointment ID cannot be empty</string>
+    <string name="Email_Address_cannot_be_empty">Email Address cannot be empty</string>
+    <string name="Address_cannot_be_empty">Address cannot be empty</string>
+    <string name="Please_enter_a_valid_address">Please enter a valid address.</string>
+    <string name="Confirm_password_cannot_be_empty">Confirm password cannot be empty</string>
+    <string name="Login_ID_cannot_be_empty">Login ID cannot be empty</string>
+    <string name="Password_cannot_be_empty">Password cannot be empty</string>
+    <string name="Invalid_Appointment_ID">Invalid Appointment ID</string>
+    <string name="Phone_NumberEmail_Address_cannot_be_empty">Phone Number/Email Address cannot be empty</string>
+    <string name="Invalid_Phone_Number">Invalid Phone Number</string>
+    <string name="Invalid_Email_Address">Invalid Email Address</string>
+    <string name="Invalid_Password">Invalid Password</string>
+    <string name="Select_Order">Select Order</string>
+    <string name="You_have_already_submitted_the_review">You have already submitted the review.</string>
+    <string name="First_name_must_be_at_least_3_characters_long"> First name must be at least 3 characters long </string>
+    <string name="Username_must_be_at_least_3_characters_long"> Username must be at least 3 characters long </string>
+    <string name="Passwords_do_not_match">Passwords do not match</string>
+    <string name="Passwords_must_be_at_least_6_characters_long"> Passwords must be at least 8 characters long </string>
+    <string name="First_Name_cannot_contain_numeric_characters">First Name cannot contain numeric characters</string>
+    <string name="Last_Name_cannot_contain_numeric_characters"> Last Name cannot contain numeric characters </string>
+    <string name="Username_cannot_contain_numeric_characters"> Username cannot contain numeric characters </string>
+    <string name="Are_you_sure_you_want_to_logout"> Are you sure you want to logout?</string>
+    <string name="No_Survey_Available"> No Survey Available </string>
+    <string name="Please_select_your_answer"> Please select your answer </string>
+    <string name="Please_enter_description">Please enter description</string>
+
+    <string name="Please_login_to_continue"> Please login to continue.</string>
+    <string name="Please_enter_a_valid_name"> Please enter a valid name.</string>
+    <string name="Please_enter_a_city"> Please enter a city.</string>
+    <string name="The_Market">The Market</string>
+    <string name="ADD_TO_CART">ADD TO CART</string>
+    <string name="Add_to_Cart">Add to Cart</string>
+    <string name="MY_BAG">MY BAG</string>
+    <string name="Thank_You"> Thank you for shopping with us. Your order id is </string>
+    <string name="Address">Address</string>
+    <string name="Unit_Price">Unit Price</string>
+    <string name="Qty">Qty</string>
+    <string name="All">All</string>
+    <string name="Price">Price</string>
+    <string name="Use_map_location">Use map location</string>
+    <string name="Change">Change</string>
+    <string name="Related_Products">Related Products</string>
+    <string name="Unit">Unit</string>
+    <string name="GrandTotal">Grand Total</string>
+    <string name="SubTotal">Sub Total</string>
+    <string name="Nothing_to_Show">Nothing to Show</string>
+    <string name="Delivery_Charge">Delivery Charge</string>
+    <string name="Subtotal">Subtotal</string>
+    <string name="Price_ALL">Price (ALL)</string>
+    <string name="PLACE_ORDER">PLACE ORDER</string>
+    <string name="Deliverytimeslots">Delivery time slots</string>
+    <string name="Saturday_to_Thursday">Saturday to Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Note">Orders are received up to 1 hour before time slots.Any orders after 9pm will be delivered in the next available time slot.</string>
+    <string name="CONFIRM">CONFIRM</string>
+    <string name="Cash_on_Delivery">Cash on Delivery</string>
+    <string name="__Online_Payment"> Online Payment</string>
+    <string name="Password">Password</string>
+    <string name="Cancel">Cancel</string>
+    <string name="OK">OK</string>
+    <string name="THE_MARKET">THE MARKET</string>
+    <string name="عربى">عربى</string>
+    <string name="YOUR_INFO">YOUR INFO</string>
+    <string name="UPDATE">UPDATE</string>
+    <string name="Please_select_an_image">Please select an image.</string>
+    <string name="Camera">Camera</string>
+    <string name="Photo_Library">Photo Library</string>
+    <string name="SHOPPING_LIST">SHOPPING LIST</string>
+    <string name="LIST_ITEMS">LIST ITEMS</string>
+    <string name="Your_Info">Your Info</string>
+    <string name="Address_Book">Address Book</string>
+    <string name="Change_Password">Change Password</string>
+    <string name="English">English</string>
+    <string name="CONTINUE">CONTINUE</string>
+    <string name="Search_here_for_groceries"> Search here for products </string>
+    <string name="SEARCH">SEARCH</string>
+    <string name="FAVORITES">FAVORITES</string>
+    <string name="No_notifications">No notifications.</string>
+    <string name="NOTIFICATIONS">NOTIFICATIONS</string>
+    <string name="NO_OREDER">NO ORDER</string>
+    <string name="MY_ORDERS">MY ORDERS</string>
+    <string name="OREDER_DETAILS">OREDER DETAILS</string>
+    <string name="Price_Details">Price Details</string>
+
+    <string name="Shipping_Charge">Shipping Charge :</string>
+
+    <string name="SETTINGS">SETTINGS</string>
+    <string name="CHANGE_PASSWORD">CHANGE PASSWORD</string>
+    <string name="Change_Your_Password">Change Your Password</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="New_Password">New Password</string>
+    <string name="Current_Password">Current Password</string>
+    <string name="ADDRESS">ADDRESS</string>
+    <string name="Add_New_Address">Add New Address</string>
+    <string name="SUGGEST_AN_ITEM">SUGGEST AN ITEM</string>
+    <string name="Description">Description</string>
+    <string name="CONTACT_US">CONTACT US</string>
+    <string name="Hear_From_You"> We’d Love to Hear </string>
+    <string name="Contact_US"> Send us a message and we’ll respond as soon as possible.</string>
+    <string name="Comment">Comment</string>
+    <string name="Your_Name">Your Name</string>
+    <string name="Phone">Phone</string>
+    <string name="SEND_NOW">SEND NOW</string>
+    <string name="Frequently_Asked_Questions">Frequently Asked Questions</string>
+    <string name="CHECKOUT">CHECKOUT</string>
+    <string name="This_item_is_not_deliverable_to_the_location_you_selected"> This item is not deliverable to the location you selected.</string>
+    <string name="Please_Enter_a_valid_address">Please Enter a valid address.</string>
+    <string name="Please_select_a_address">Please select a address.</string>
+    <string name="You_dont_have_any_default_address">You dont have any default address.</string>
+    <string name="Select_an_address">Select an address</string>
+    <string name="ORDER_SUMMARY">ORDER SUMMARY</string>
+    <string name="City">City</string>
+    <string name="SignInUsing">SignIn Using</string>
+    <string name="Please_wait">Retrieving data. Please wait.</string>
+    <string name="Type_of_Address">Type of Address</string>
+    <string name="SAVE">SAVE</string>
+    <string name="Make_this_My_default_address">Make this My default address</string>
+    <string name="Home">Home</string>
+    <string name="Office">Office</string>
+    <string name="SKIP">SKIP</string>
+    <string name="Login">Login</string>
+    <string name="OUT_OF_STOCK">OUT OF STOCK</string>
+    <string name="Low_to_high">Low to high</string>
+    <string name="High_to_low">High to low</string>
+    <string name="Mode_Of_PaymentCash_On_Delivery">Mode Of Payment : Cash On Delivery</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Promo_Applied">Promo Applied</string>
+    <string name="Promo_code">Promo code</string>
+    <string name="Coupon_Code_Applied_Successfuly">Coupon Code Applied Successfuly</string>
+    <string name="Enter_promocode">Enter promocode</string>
+    <string name="Have_Promo">Have Promo</string>
+    <string name="Order_Id">Order Id</string>
+    <string name="Date">Date</string>
+
+
+    <string name="NO">NO</string>
+    <string name="YES">YES</string>
+
+    <string name="Arabic">Arabic</string>
+
+    <string name="About">About</string>
+    <string name="Delivery_Time">Delivery Time</string>
+    <string name="TermsCoditions">Terms &#38; Conditions</string>
+    <string name="Please_enter_a_valid_email">Please enter a valid email</string>
+    <string name="Please_enter_the_phone_number">Please enter the phone number</string>
+    <string name="Please_eneter_valid_promocode">Please eneter valid promocode</string>
+    <string name="Thank_you_for_shopping_with_us_Your_order_id_is">Please eneter valid promocode</string>
+    <string name="ChangeLanguage">Change Language</string>
+    <string name="ImageNote">Images shown in this product is not exact as the same, it may vary</string>
+
+
+    <string name="Select_Time_of_Delivery">Select Time of Delivery</string>
+    <string name="Minimum_cart_amount_of">Minimum cart amount of  </string>
+    <string name="retry">RETRY</string>
+    <string name="region">Region</string>
+
+
+</resources>

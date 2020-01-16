@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@mipmap/home"
+            android:title="@string/Shop" />
+        <item
+            android:id="@+id/nav_orderhistory"
+            android:icon="@mipmap/document"
+            android:title="@string/Order_History" />
+        <item
+            android:id="@+id/nav_shoppinglist"
+            android:icon="@mipmap/ic_shop_list"
+            android:title="@string/Shopping_List" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/settingssmall"
+            android:title="@string/Settings" />
+        <item
+            android:id="@+id/nav_suggestitem"
+            android:icon="@mipmap/suggestitem"
+            android:title="@string/Suggest_an_item" />
+        <item
+            android:id="@+id/nav_changelang"
+            android:icon="@mipmap/ic_language"
+            android:title="@string/ChangeLanguage" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@mipmap/emailflying"
+            android:title="@string/Contact" />
+        <item
+            android:id="@+id/nav_FAQ"
+            android:icon="@mipmap/ic_message"
+            android:title="@string/FAQ" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@mipmap/share"
+            android:title="@string/Share" />
+
+        <item
+            android:id="@+id/nav_TC"
+            android:icon="@mipmap/security"
+            android:title="@string/TermsCoditions" />
+
+        <item
+            android:id="@+id/nav_DeliveryTime"
+            android:icon="@mipmap/about"
+            android:title="@string/Delivery_Time" />
+        <!--<item-->
+        <!--android:id="@+id/nav_About"-->
+        <!--android:icon="@mipmap/about"-->
+        <!--android:title="@string/About" />-->
+
+        <item
+            android:id="@+id/nav_s"
+            android:title="" />
+    </group>
+
+
+</menu>

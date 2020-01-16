@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/len_frame_click"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+    android:background="@mipmap/bg_main"
+    android:elevation="300dp"
+    android:outlineAmbientShadowColor="@color/transparent"
+    tools:context=".Fragment.ShoppingListPopUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:text="@string/Add_to_shopping_list"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyclerView_Units_POPUP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                    </android.support.v7.widget.RecyclerView>
+                    <!--<Button-->
+                    <!--android:id="@+id/btn_gm"-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:layout_marginRight="4dp"-->
+                    <!--android:background="@drawable/btn_not_selected"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="500 gm"-->
+                    <!--android:textColor="@color/colorBlack"-->
+                    <!--android:textSize="12dp" />-->
+
+                    <!--<Button-->
+                    <!--android:id="@+id/btn_kg"-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="30dp"-->
+                    <!--android:layout_marginLeft="4dp"-->
+                    <!--android:background="@drawable/btn_selected"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="1 Kg"-->
+                    <!--android:textColor="@color/colorBlack"-->
+                    <!--android:textSize="12dp" />-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <EditText
+                        android:id="@+id/edtAddShopListPOPUP"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.8"
+                        android:background="@null"
+                        android:gravity="start"
+                        android:hint="@string/Add_to_shopping_list"
+                        android:paddingStart="20dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:singleLine="true"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:id="@+id/linearImgAddPOPUP"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.2"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/imgAddPOPUP"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:src="@mipmap/ic_plus" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="36dp"
+                    android:layout_marginRight="36dp"
+                    android:layout_marginBottom="40dp"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyclerviewShoppingListPOPUP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="40dp"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:scrollbars="none" />
+
+                    <Button
+                        android:id="@+id/btnAddToShopListPOPUP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="40dp"
+                        android:background="@drawable/btn_rectangle"
+                        android:text="@string/ADD_TO_LIST" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

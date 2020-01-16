@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/linear_backArrow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imgBackArrowNomenu"
+                android:layout_width="15dp"
+                android:layout_height="@dimen/padd_10"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@mipmap/left_arrow"
+                android:gravity="center"
+                android:padding="10dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txt_actionbar_TitleNomenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:fontFamily="@font/caviardreamsbold"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearCartLalyoutNomenu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_cart_actionbarNomenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="end"
+                android:src="@mipmap/ic_cart" />
+
+            <TextView
+                android:id="@+id/txtCartCountNomenu"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/circulartextview"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

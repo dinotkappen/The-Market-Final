@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <fragment
+                android:id="@+id/place_fragment"
+                android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8" />
+
+            <LinearLayout
+                android:id="@+id/linearBackMap"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:gravity="right">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="20dp"
+                    android:src="@mipmap/left_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".Activity.MapsActivity" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img_chk_map"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@mipmap/ic_radio_not_selected" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginLeft="12dp"
+                        android:gravity="center"
+                        android:text="@string/Use_map_location"
+                        android:textColor="@color/colorBlack" />
+                </LinearLayout>
+                <!--Linear layout from api-->
+                <LinearLayout
+                    android:id="@+id/linear_adrz_api"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginRight="23dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/edt_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:focusable="false"
+                        android:hint="@string/Name"
+                        android:textSize="12dp" />
+
+                    <EditText
+                        android:id="@+id/edt_adrz"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:focusable="false"
+                        android:hint="@string/Address"
+                        android:textSize="12dp" />
+
+                    <EditText
+                        android:id="@+id/edt_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:focusable="false"
+                        android:hint="@string/City"
+                        android:textSize="12dp" />
+
+
+                    <EditText
+                        android:id="@+id/edt_Phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:focusable="false"
+                        android:hint="@string/Phone"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="horizontal">
+
+
+                        <Button
+                            android:id="@+id/btn_Change"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/gray_rectangle"
+                            android:text="@string/Change"
+                            android:textAllCaps="false"
+                            android:textSize="12dp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <!--Linear layout from map-->
+                <LinearLayout
+                    android:id="@+id/linear_adrz_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/edt_Name_Map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:drawableStart="@mipmap/ic_profile"
+                        android:drawableLeft="@mipmap/ic_profile"
+                        android:drawablePadding="10dp"
+                        android:gravity="right"
+                        android:hint="@string/Name"
+                        android:padding="5dp"
+                        android:singleLine="true" />
+
+                    <EditText
+                        android:id="@+id/edt_Adrz_Map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:drawableStart="@mipmap/ic_gps"
+                        android:drawableLeft="@mipmap/ic_gps"
+                        android:drawablePadding="10dp"
+                        android:gravity="right"
+                        android:hint="@string/Address"
+                        android:padding="5dp"
+                        android:singleLine="true" />
+
+                    <EditText
+                        android:id="@+id/edt_City_Map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:drawableStart="@mipmap/ic_gps"
+                        android:drawableLeft="@mipmap/ic_gps"
+                        android:drawablePadding="10dp"
+                        android:focusable="false"
+                        android:gravity="right"
+                        android:hint="@string/City"
+                        android:padding="5dp"
+                        android:singleLine="true" />
+
+                    <EditText
+                        android:id="@+id/edt_Phone_Map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:drawableStart="@mipmap/ic_phone"
+                        android:drawableLeft="@mipmap/ic_phone"
+                        android:drawablePadding="10dp"
+                        android:gravity="right"
+                        android:hint="@string/Phone"
+                        android:inputType="phone"
+                        android:maxLength="13"
+                        android:padding="5dp"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <!--View-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginRight="23dp"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorBlack" />
+
+                    <TextView
+                        android:id="@+id/txtNoteDeliveryTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linearDeliveryTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginRight="23dp"
+                    android:background="@drawable/gray_rectangle"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_time" />
+
+                    <EditText
+                        android:id="@+id/edtTimeSlot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:background="@null"
+                        android:focusable="false"
+                        android:text="@string/Select_Time_of_Delivery"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginRight="23dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:id="@+id/linearOnlinePayment"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.47"
+                            android:background="@drawable/gray_rectangle"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/ic_online_payment"
+                                android:drawablePadding="6dp"
+                                android:gravity="center"
+                                android:padding="6dp"
+                                android:paddingTop="8dp"
+                                android:text="@string/__Online_Payment"
+                                android:textAllCaps="false"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="12dp" />
+
+                            <LinearLayout
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="right"
+                                android:layout_marginEnd="22dp"
+                                android:layout_marginRight="22dp">
+
+                                <ImageView
+                                    android:id="@+id/imgOnline"
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:src="@mipmap/tick_ok"
+                                    android:visibility="gone" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <!--For Gap Between Box-->
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.06"
+                            android:orientation="horizontal" />
+
+                        <LinearLayout
+                            android:id="@+id/linearCashOnDelivery"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.47"
+                            android:background="@drawable/gray_rectangle"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:drawableLeft="@mipmap/ic_cash"
+                                android:drawablePadding="6dp"
+                                android:gravity="center"
+                                android:padding="6dp"
+                                android:paddingTop="8dp"
+                                android:text="@string/Cash_on_Delivery"
+                                android:textAllCaps="false"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="12dp" />
+
+                            <LinearLayout
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="right"
+                                android:layout_marginEnd="22dp"
+                                android:layout_marginRight="22dp">
+
+                                <ImageView
+                                    android:id="@+id/imgCash"
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:src="@mipmap/tick_ok"
+                                    android:visibility="gone" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginRight="23dp"
+                    android:orientation="horizontal">
+
+                    <!--<RadioButton-->
+                    <!--android:id="@+id/rbTCMaps"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:checked="false"-->
+                    <!--android:text="" />-->
+                    <CheckBox
+                        android:id="@+id/rbTCMaps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                    <LinearLayout
+                        android:id="@+id/len_team_click"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txt_lhear"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="@string/herebyTC"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:id="@+id/txt_tearms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/AgreeTC"
+                            android:textColor="@color/blue"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <!--NB:-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginRight="23dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:focusable="false"
+                        android:text="@string/Note"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginRight="23dp"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/btn_Confirm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="40dp"
+                        android:background="@drawable/btn_rectangle"
+                        android:text="@string/CONFIRM"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

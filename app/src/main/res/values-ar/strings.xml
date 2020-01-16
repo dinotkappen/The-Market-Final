@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">The Market</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="search_hint">ابحث هنا عن البقالة</string>
+    <!--<string name="AgreeTC"><u>أوافق على الشروط والأحكام</u></string>-->
+    <string name="Password_Canot_Empty">لا يمكن أن تكون كلمة المرور فارغة</string>
+
+
+    <string name="facebook_app_id">825708251097899</string>
+    <string name="fb_login_protocol_scheme">fb825708251097899</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="title_activity_maps">ذ هذا الطلب</string>
+
+
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="Welcome_Sign_in_to_your_Account">تسجيل الدخول </string>
+    <string name="Create_an_Account">  إنشاء حساب </string>
+    <string name="Sign_up"> تسجيل دخول </string>
+    <string name="Sign_upOne"></string>
+    <string name="Forgot_Password"> هل نسيت كلمة السرّ الخاصة بك؟ </string>
+
+    <string name="User_Name_Email"> اسم المستخدم / البريد الإلكتروني </string>
+    <string name="Create_A_New_Account"> إنشاء حساب جديد </string>
+    <string name="Your_already_have_an_account"> هل لديك حساب مسبق؟ </string>
+    <string name="SIGN_UP"> سجلني </string>
+    <string name="Email"> البريد الإلكتروني </string>
+    <string name="Name"> الإسم </string>
+    <string name="Last_Name">الكنية </string>
+    <string name="SignInUsing">تسجيل الدخول باستخدام</string>
+    <string name="SEND"> إإرسال </string>
+    <string name="Enter_Your_Email_Id_Here"> أدخل عنوان بريدك الإلكتروني هنا ..</string>
+    <string name="ADD_TO_LIST"> أضف إلى القائمة </string>
+    <string name="Add_to_shopping_list"> أضف إلى قائمة المشتريات </string>
+    <string name="Add_New_List"> أضف لائحة جديدة </string>
+    <string name="Your_Account_Settings"> إعدادات حسابك </string>
+    <string name="SUBMIT"> تقديم </string>
+    <string name="Suggest_an_item"> إقترح منتج </string>
+    <string name="Title"> العنوان </string>
+    <string name="_QAR"> ريال قطري  </string>
+    <string name="Shop"> تسوّق </string>
+    <string name="Order_History"> تاريخ الطلب </string>
+    <string name="Shopping_List"> قائمة المشتريات </string>
+    <string name="Settings"> الإعدادات </string>
+    <string name="Contact"> اتصل بنا </string>
+    <string name="FAQ"> الأسئلة المتكرّرة </string>
+    <string name="Share"> مشاركة </string>
+    <string name="Logout"> تسجيل الخروج </string>
+    <string name="LogIn"> تسجيل الدخول </string>
+    <string name="LETS_BEGIN"> هيا نبدأ </string>
+    <string name="No_internet_connection"> لا يوجد اتصال بالإنترنت </string>
+    <string name="Server_Error">خطأ في جهاز الخادم</string>
+    <string name="No_notification"> لا إشعارات </string>
+    <string name="First_Name_cannot_be_empty"> لا يمكن أن يكون الاسم الأول فارغًا </string>
+    <string name="Enter_a_valid_name"> أدخل إسم صحيح </string>
+    <string name="Last_Name_cannot_be_empty"> الإسم الأخير لا يمكن أن يكون فارغاً </string>
+    <string name="Username_cannot_be_empty"> اسم المستخدم لا يمكن أن يكون فارغا </string>
+    <string name="Invalid_Username_or_Password"> خطأ في إسم المستخدم أو كلمة المرور </string>
+    <string name="Appointment_ID_cannot_be_empty"> لا يمكن أن يكون رقم التعيين فارغًا </string>
+    <string name="Email_Address_cannot_be_empty"> لا يمكن أن يكون عنوان البريد الإلكتروني فارغًا </string>
+    <string name="Address_cannot_be_empty"> لا يمكن أن يكون العنوان فارغًا </string>
+    <string name="Please_enter_a_valid_address"> يرجى إدخال عنوان صالح </string>
+    <string name="Confirm_password_cannot_be_empty"> تأكيد كلمة المرور لا يمكن أن يكون فارغاً </string>
+    <string name="Login_ID_cannot_be_empty"> لا يمكن أن يكون معرف تسجيل الدخول فارغًا </string>
+    <string name="Password_cannot_be_empty"> لا يمكن أن تكون كلمة المرور فارغ </string>
+    <string name="Invalid_Appointment_ID"> معرف موعد غير صحيح </string>
+    <string name="Phone_NumberEmail_Address_cannot_be_empty"> لا يمكن أن يكون رقم الهاتف / عنوان البريد الإلكتروني فارغاً </string>
+    <string name="Invalid_Phone_Number"> رقم الهاتف غير صحيح </string>
+    <string name="Invalid_Email_Address"> عنوان البريد الإلكتروني غير صحيح </string>
+    <string name="Invalid_Password"> رمز مرور خاطئ </string>
+    <string name="Select_Order"> اختر طلبا </string>
+    <string name="You_have_already_submitted_the_review"> لقد سبق وأن أرسلت المراجعة </string>
+    <string name="First_name_must_be_at_least_3_characters_long"> يجب أن يتكون الاسم الأول من 3 أحرف على الأقل </string>
+    <string name="Username_must_be_at_least_3_characters_long"> يجب أن يتكون اسم المستخدم من 3 أحرف على الأقل </string>
+    <string name="Passwords_do_not_match"> كلمة المرور غير مطابقة </string>
+    <string name="Passwords_must_be_at_least_6_characters_long"> يجب أن تتكون كلمات المرور من 8 أحرف على الأقل </string>
+    <string name="First_Name_cannot_contain_numeric_characters"> لا يمكن أن يحتوي الاسم الأول على أحرف رقمية `</string>
+    <string name="Last_Name_cannot_contain_numeric_characters"> لا يمكن أن يحتوي الاسم الأخير على أحرف رقمية </string>
+    <string name="Username_cannot_contain_numeric_characters"> لا يمكن أن يحتوي اسم المستخدم على أحرف رقمية </string>
+    <string name="Are_you_sure_you_want_to_logout"> هل أنت متأكد أنك تريد تسجيل الخروج؟ </string>
+    <string name="No_Survey_Available"> لا يوجد مسح متاح </string>
+    <string name="Please_select_your_answer"> يرجى تحديد إجابتك </string>
+    <string name="Please_enter_a_title"> !لرجاء إدخال عنوان </string>
+    <string name="Please_enter_description"> يرجى إدخال الوصف</string>
+
+    <string name="Please_login_to_continue"> الرجاء تسجيل الدخول للمتابعة </string>
+    <string name="Please_enter_a_valid_name"> الرجاء ادخال اسما صحيحا </string>
+    <string name="Please_enter_a_city"> الرجاء إدخال مدينة </string>
+    <string name="The_Market"> السوق </string>
+    <string name="ADD_TO_CART"> أضف إلى سلة التسوق </string>
+    <string name="Add_to_Cart"> أضف إلى سلة التسوق </string>
+    <string name="MY_BAG"> حقيبتي </string>
+    <string name="Thank_You"> شكراً لكم </string>
+    <string name="Address"> العنوان </string>
+    <string name="Unit_Price"> سعر الوحده </string>
+    <string name="Qty"> الكميّة </string>
+    <string name="All">الكل</string>
+    <string name="Price"> السعر </string>
+    <string name="Use_map_location"> إستخدم خريطة الموقع </string>
+    <string name="Change"> تغيير </string>
+    <string name="Related_Products"> منتجات ذات صله </string>
+    <string name="Unit"> الوحدة </string>
+    <string name="GrandTotal"> المجموع الكليّ </string>
+    <string name="SubTotal"> المجموع الفرعي </string>
+    <string name="Nothing_to_Show"> لا شيء للعرض </string>
+    <string name="Delivery_Charge"> رسوم التوصيل </string>
+    <string name="Subtotal">حاصل الجمع</string>
+    <string name="Price_ALL">السعر (الكل)</string>
+    <string name="PLACE_ORDER">مكان الامر</string>
+    <string name="Deliverytimeslots">اوقات التوصيل المحدده:-</string>
+    <string name="Saturday_to_Thursday">السبت الى الخميس:</string>
+    <string name="Friday">يوم الجمعه:</string>
+
+    <string name="Note">لدينا اربع اوقات للتوصيل ويكون استقبال الطلب قبل وقت الوصيل بساعه."ملاحظة: الطلبات التي يتم تقديمها قبل الساعة 12 ظهرًا سيتم تسليمها في اليوم نفسه قبل الساعة 5 مساءً. الطلبات التي يتم تقديمها بعد 2 مساءً ستسلم في اليوم التالي قبل الساعة 10
+</string>
+    <string name="CONFIRM">تأكيد</string>
+    <string name="Cash_on_Delivery">الدفع عن الاستلام</string>
+    <string name="__Online_Payment"> الدفع الالكتروني</string>
+    <string name="Password">كلمه السر</string>
+    <string name="Cancel">إلغاء</string>
+    <string name="OK">حسنا</string>
+    <string name="THE_MARKET">السوق</string>
+    <string name="عربى">عربى</string>
+    <string name="YOUR_INFO">معلوماتك</string>
+    <string name="UPDATE">تحديث</string>
+    <string name="Please_select_an_image">الرجاء اختيار صورة.</string>
+    <string name="Camera">الة تصوير</string>
+    <string name="Photo_Library">مكتبة الصور</string>
+    <string name="SHOPPING_LIST">قائمة التسوق</string>
+    <string name="LIST_ITEMS">قائمة المواد</string>
+    <string name="Your_Info">معلوماتك</string>
+    <string name="Address_Book">دليل العناوين</string>
+    <string name="Change_Password">غير كلمة السر</string>
+    <string name="English">الإنجليزية</string>
+    <string name="CONTINUE">استمر</string>
+    <string name="Search_here_for_groceries">ابحث هنا عن المنتجات</string>
+    <string name="SEARCH">بحث</string>
+    <string name="FAVORITES">المفضلة</string>
+    <string name="No_notifications">لا إشعارات.</string>
+    <string name="NOTIFICATIONS">إخطارات</string>
+    <string name="NO_OREDER">لا طلب</string>
+    <string name="MY_ORDERS">طلباتي</string>
+    <string name="OREDER_DETAILS">تفاصيل الطلب</string>
+    <string name="Price_Details">تفاصيل السعر</string>
+    <string name="Shipping_Charge">رسوم الشحن:</string>
+
+    <string name="SETTINGS">الإعدادات</string>
+    <string name="CHANGE_PASSWORD">غير كلمة السر</string>
+    <string name="Change_Your_Password">غير كلمة المرور الخاصة بك</string>
+    <string name="Confirm_Password">تأكيد كلمة المرور</string>
+    <string name="New_Password">كلمة السر الجديدة</string>
+    <string name="Current_Password">كلمة المرور الحالي</string>
+    <string name="ADDRESS">عنوان</string>
+    <string name="Add_New_Address">إضافة عنوان جديد</string>
+    <string name="SUGGEST_AN_ITEM">اقترح منتج</string>
+    <string name="Description">وصف</string>
+    <string name="CONTACT_US">اتصل بنا</string>
+    <string name="Hear_From_You">نحب أن نسمع منك.</string>
+    <string name="Contact_US">أرسل إلينا رسالة وسنرد عليك في أقرب وقت ممكن.</string>
+    <string name="Comment">تعليق</string>
+    <string name="Your_Name">اسمك</string>
+    <string name="Phone">هاتف</string>
+    <string name="SEND_NOW">ارسل الان</string>
+    <string name="Frequently_Asked_Questions">أسئلة مكررة</string>
+    <string name="CHECKOUT">الدفع</string>
+    <string name="This_item_is_not_deliverable_to_the_location_you_selected">لا يمكن تسليم هذا العنصر إلى الموقع الذي حددته.</string>
+    <string name="Please_Enter_a_valid_address">يرجى إدخال عنوان صالح.</string>
+    <string name="Please_select_a_address">يرجى تحديد العنوان.</string>
+    <string name="You_dont_have_any_default_address">ليس لديك أي عنوان افتراضي.</string>
+    <string name="Select_an_address">حدد عنوانًا</string>
+    <string name="ORDER_SUMMARY">ترتيب الطلب</string>
+    <string name="City">مدينة</string>
+    <string name="Please_wait">استرداد البيانات. \ n الرجاء الانتظار.</string>
+    <string name="Type_of_Address">نوع العنوان</string>
+    <string name="SAVE">حفظ</string>
+    <string name="Make_this_My_default_address">اجعل هذا العنوان الافتراضي الخاص بي</string>
+    <string name="Home">الصفحة الرئيسية</string>
+    <string name="Office">مكتب. مقر. مركز</string>
+    <string name="SKIP">تخطى</string>
+    <string name="Login">تسجيل الدخول</string>
+    <string name="OUT_OF_STOCK">إنتهى من المخزن</string>
+    <string name="Low_to_high">من أسفل إلى أعلى</string>
+    <string name="High_to_low">مرتفع إلى منخفض</string>
+    <string name="Mode_Of_PaymentCash_On_Delivery">طريقة الدفع: الدفع عند الاستلام</string>
+    <string name="Quantity">كمية</string>
+    <string name="Promo_Applied">تطبيق الترويجي</string>
+    <string name="Promo_code">رمز ترويجي</string>
+    <string name="Coupon_Code_Applied_Successfuly">رمز القسيمة يعمل بنجاح</string>
+    <string name="Enter_promocode">إدخال الرمز الترويجي</string>
+    <string name="Have_Promo">احصل على عرض ترويجي</string>
+    <string name="Order_Id">رقم التعريف الخاص بالطلب</string>
+    <string name="Date">تاريخ</string>
+
+
+    <string name="NO">لا</string>
+    <string name="YES">نعم فعلا</string>
+
+    <string name="Arabic">عربى</string>
+
+    <string name="About">عنا</string>
+    <string name="Delivery_Time">اوقات التوصيل</string>
+    <string name="TermsCoditions"> البنود و الظروف</string>
+    <string name="Please_enter_a_valid_email">يرجى إدخال بريد إلكتروني صالح</string>
+    <string name="Please_enter_the_phone_number">من فضلك ادخل رقم الهاتف</string>
+    <string name="Please_eneter_valid_promocode">الرجاء إدخال الرمز الترويجي صحيح</string>
+    <string name="Thank_you_for_shopping_with_us_Your_order_id_is">شكرا للتسوق معنا لكي معرف الخاص بك هو</string>
+    <string name="ChangeLanguage">غير اللغة</string>
+    <string name="ImageNote">الصور المعروضة في هذا التطبيق قد تختلف عن المنتج نفسه</string>
+
+
+    <string name="Select_Time_of_Delivery">حدد وقت التسليم‎</string>
+    <string name="Minimum_cart_amount_of">الحد الأدنى لمبلغ العربة</string>
+
+    <string name="region">منطقة</string>
+    <string name="retry">إعادة المحاولة</string>
+
+
+</resources>

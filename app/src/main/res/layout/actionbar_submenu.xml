@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.3"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearBack"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+
+                android:clickable="true"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgbackBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:src="@mipmap/left_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearMenuBlack"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+
+                android:clickable="true"
+                android:duplicateParentState="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgMenuBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:gravity="left"
+                    android:src="@mipmap/menu_black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.45"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/txt_actionbar_Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="@font/caviardreamsbold"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearCartLalyout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="end"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:duplicateParentState="true"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_cart_actionbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:src="@mipmap/ic_cart" />
+
+            <TextView
+                android:id="@+id/txtCartCount"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="left"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/circulartextview"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

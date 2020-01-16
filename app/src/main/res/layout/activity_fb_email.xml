@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".Activity.FbEmailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp"
+            />
+        <EditText
+            android:id="@+id/edtFbEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/edt_gray_curved"
+            android:hint="@string/Email"/>
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:inputType="phone"
+            android:maxLength="13"
+            android:visibility="gone"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/edt_gray_curved"
+            android:hint="@string/Phone"/>
+        <Button
+            android:id="@+id/btnFbEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_rectangle"
+            android:text="@string/SUBMIT"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

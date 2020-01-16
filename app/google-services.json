@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "562999299960",
+    "firebase_url": "https://the-market-258213.firebaseio.com",
+    "project_id": "the-market-258213",
+    "storage_bucket": "the-market-258213.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562999299960:android:3a72309abb2ba9506ec28d",
+        "android_client_info": {
+          "package_name": "com.the.marketapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562999299960-87kuh0op3qtk5mmuuvo8cvan34ndpaep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.the.marketapp",
+            "certificate_hash": "efcb155be04dd586c5fa4fc7f6859173f4cfa869"
+          }
+        },
+        {
+          "client_id": "562999299960-eht9tp6casc7bvmtnq4qc0pgdgjqt06p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUwsPpPPjPIW3qG7jISg_-jUOv90fC-L4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562999299960-eht9tp6casc7bvmtnq4qc0pgdgjqt06p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.SingleOrderHistoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearSingleOrderHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyclerViewSingleOrderHistory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16dp"
+                        android:text="@string/Price_Details" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:textSize="14dp"
+                            android:textColor="@color/colorBlack"
+                            android:text="@string/SubTotal" />
+
+                        <TextView
+                            android:id="@+id/txtSubTotalOrderSingle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:textSize="14dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:textColor="@color/colorBlack"
+                            android:gravity="end"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:textSize="14dp"
+                            android:textColor="@color/colorBlack"
+                            android:text="@string/Shipping_Charge" />
+
+                        <TextView
+                            android:id="@+id/txtShippingChargeOrderSingle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:textSize="14dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:textColor="@color/colorBlack"
+                            android:gravity="end"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="6dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:textSize="14dp"
+                            android:textColor="@color/colorBlack"
+                            android:text="@string/GrandTotal" />
+
+                        <TextView
+                            android:id="@+id/txtGrandTotalOrderSingle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:textSize="14dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:textColor="@color/colorBlack"
+                            android:gravity="end"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginStart="22dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="14dp"
+                            android:layout_marginTop="12dp"
+                            android:text="@string/Mode_Of_PaymentCash_On_Delivery" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="16dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginStart="8dp"
+                            android:text="@string/Address" />
+
+                        <TextView
+                            android:id="@+id/txtNameOrderSingle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlack"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginStart="12dp"
+                            android:textSize="14dp"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/txtAdrz1OrderSingle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlack"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="6dp"
+                            android:textSize="14dp"
+                            android:text="" />
+
+                        <TextView
+                            android:id="@+id/txtProvinenceOrderSingle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlack"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="6dp"
+                            android:textSize="14dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/txtPhoneOrderSingle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlack"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginBottom="8dp"
+                            android:textSize="14dp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/linearSingleOrderHistoryLayoutNotVisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Nothing_to_Show" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

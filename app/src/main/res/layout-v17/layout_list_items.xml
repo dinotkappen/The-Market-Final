@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="3dp"
+    android:paddingStart="3dp"
+    android:paddingRight="3dp"
+    android:paddingEnd="3dp"
+    android:layout_margin="1dp">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_Sub_Cat"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/edt_black_border"
+        android:layout_marginBottom="5dp"
+        android:focusable="false"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingEnd="15dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:textSize="12dp"/>
+
+
+</LinearLayout>

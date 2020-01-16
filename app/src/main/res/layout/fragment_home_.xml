@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edt_Search_Home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search_hint"
+            android:drawableStart="@drawable/ic_search_small"
+            android:background="@drawable/rounded_edt"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:drawablePadding="15dp"
+            android:padding="10dp"
+            android:focusable="false"
+            android:clickable="true"
+            android:imeOptions="actionDone"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:textSize="12dp"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorHint"
+            android:drawableLeft="@drawable/ic_search_small" />
+
+
+    </LinearLayout>
+
+
+
+
+    <include
+        android:layout_marginTop="110dp"
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</FrameLayout>
